@@ -17,7 +17,7 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
     publicDir: fileURLToPath(new URL("./public", import.meta.url)), // 无需处理的静态资源位置
     assetsInclude: fileURLToPath(new URL("./src/assets", import.meta.url)), // 需要处理的静态资源位置
     plugins: [
-      // Vue模板文件编译插件
+      // Vue模板文件编译插件ooo
       vue(),
       // jsx文件编译插件
       vueJsx(),
