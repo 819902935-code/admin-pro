@@ -1,4 +1,4 @@
 <template>
-  <div>about</div>
+	<div>about</div>
 </template>
 <style lang="less" scoped></style>
